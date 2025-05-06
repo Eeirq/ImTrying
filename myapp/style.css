@@ -1,16 +1,22 @@
 body {
-    background: linear-gradient(to bottom, #ffb6c1, #ffe4e1); /* Soft pink gradient */
-    font-family: 'Comic Sans MS', cursive, sans-serif; /* Cute & playful */
+    background: linear-gradient(to bottom, #ffccff, #99ccff); /* Light pink & blue gradient */
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Cute, playful style */
     text-align: center;
-    color: #fff; /* White text for better contrast */
+    color: #333; /* Dark gray for better readability */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Makes the page fully centered */
 }
 
 .welcome-message {
     font-size: 2.5rem;
     font-weight: bold;
     padding: 40px;
-    background: rgba(255, 182, 193, 0.6); /* Soft pink transparent box */
+    background: rgba(255, 182, 193, 0.7); /* Soft pink transparent box */
     display: inline-block;
     border-radius: 15px;
     box-shadow: 0px 4px 10px rgba(255, 192, 203, 0.6); /* Gentle glow */
+    border: 2px solid #99ccff; /* Pretty blue border */
 }
+
